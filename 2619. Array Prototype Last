@@ -19,3 +19,7 @@ if (this.length === 0) {
 The Array.prototype.last() method is designed to return the last element of an array, or -1 if the array is empty.
 This can be useful in scenarios where you want to quickly access the last element of an array without having to write additional code to handle empty arrays.
  */
+
+
+ //simple we can use ternery operator
+return this.length ? this[this.length - 1] : -1;
