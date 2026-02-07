@@ -1,20 +1,16 @@
 /**
- * @param {number[]} arr
+ * @param {number[]} nums
  * @param {Function} fn
- * @return {number[]}
+ * @param {number} init
+ * @return {number}
  */
- let fs = require ('fs')
-var map = function(arr, fn) {
-    let list = []
-    for(let i = 0 ; i < arr.length; i++){
-         list[i] = fn(arr[i],i)
-    }
-    return list
+var reduce = function(nums, fn, init) {
+ for (let i=0; i<nums.length ;i++)
+ {
+    init = fn(init,nums[i]);
+ }
+return init;
 };
-process.on('exit', ()=>{
-      fs.writeFileSync("display_runtime.txt", "1");
-
-})
 
 
 
