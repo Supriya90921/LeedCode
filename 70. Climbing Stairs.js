@@ -1,8 +1,5 @@
 
-/**
- * @param {number} n
- * @return {number}
- */
+/** CLimbing Stairs  */
 var climbStairs = function(n) {
     
     if (n < 2) {
