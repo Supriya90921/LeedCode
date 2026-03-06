@@ -1,5 +1,5 @@
 
-var Addtwopromises=async(promise1,promise2)
+var addTwoPromises = async function (promise1,promise2)
 {
   let a=await promise1;
   let b=await promise2;
