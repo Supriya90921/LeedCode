@@ -1,8 +1,8 @@
-function Memorize(fn)
+function Memoize(fn)
 {
   const cache={};
 
-  function Memorize(...args)
+  return function memoize(...args)
   {
     const key=JSON.stringify(args);  //convert args array into string
     if(key in cache)
