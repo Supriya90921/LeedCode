@@ -1,4 +1,4 @@
-function Memoize(fn)
+function memoize(fn)
 {
   const cache={};
 
