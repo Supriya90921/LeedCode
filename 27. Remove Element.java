@@ -10,7 +10,7 @@ class Solution {
                 k++;
             }
         }
-        return k;
+        return nums[k];
         
     }
 }
