@@ -1,5 +1,5 @@
 
-function findDuplicate(...nums)
+function findDuplicate(nums)
 {
 
 
